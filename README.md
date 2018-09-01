@@ -5,7 +5,7 @@ Simple arduino driver for the "Handy Cricket" LED display
 
 The "Handy Cricket" is a robotics package, featuring a bespoke 4-digit LED display:
 
-<img src="http://www.handyboard.com/cricket/bus/4digit/4dkb-sm.jpg" width="50%">
+<img align="right" src="http://www.handyboard.com/cricket/bus/4digit/4dkb-sm.jpg" width="50%">
 
 This project contains an arduino driver for the cricket bus, and a test program for the cricket LED display.
 
@@ -69,3 +69,8 @@ You can easily change the demo behaviour below.
 
 The port and pin can be easily changed, see CrucketBus.h
 
+# Note
+
+The test code is a bare metal program - it is not a sketch, it is not downloaded using the Arduino bootloader.
+
+Use in a sketch will require some conversion on your part.
