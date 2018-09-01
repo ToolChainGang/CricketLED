@@ -14,6 +14,7 @@ for calling the display functions.
 
 # CrucketBus.c, CricketBus.h
 
+```C
 //      //////////////////////////////////////
 //      //
 //      // In CricketBus.h
@@ -43,24 +44,24 @@ for calling the display functions.
 //      CricketLEDBright(7,ID)              // Set brightness level to 7
 //
 //      CricketLEDPat(a,b,c,d,ID)           // Set segments based on pattern (see notes below)
-//
+```
 
-##Test
+#Running the test code
 
-//      Connect the white, "bus signal" of your cricket display to PORTD.7
-//      (Also Black GND to ground, and red BUSV to +5V)
-//
-//      Compile, load, and run this module.
-//
-//      Cricket display will begin a demo program:
-//
-//          1) display a count in decimal
-//          2) display a count in hex
-//          3) cycle the display brightness
-//          4) cycle the digit segments
-//          5) repeat...
-//
-//      You can easily change the demo behaviour below.
-//
-//      The port and pin can be easily changed, see CrucketBus.h
-//
+Connect the white, "bus signal" of your cricket display to PORTD.7
+(Also Black GND to ground, and red BUSV to +5V)
+
+Compile, load, and run this module.
+
+Cricket display will begin a demo program:
+
+    1) display a count in decimal
+    2) display a count in hex
+    3) cycle the display brightness
+    4) cycle the digit segments
+    5) repeat...
+
+You can easily change the demo behaviour below.
+
+The port and pin can be easily changed, see CrucketBus.h
+
